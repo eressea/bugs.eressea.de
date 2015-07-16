@@ -1,0 +1,11 @@
+User-agent: *
+
+# Asimov's three laws:
+Disallow: /harming/humans
+Disallow: /ignoring/human/orders
+Disallow: /harm/to/self
+
+# this should have been deleted during install:
+Disallow: /admin
+
+Allow: /

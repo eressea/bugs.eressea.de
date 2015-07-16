@@ -1,0 +1,44 @@
+<?php
+/**
+ * Slack Integration
+ * Copyright (C) 2014 Karim Ratib (karim.ratib@gmail.com)
+ *
+ * Slack Integration is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License 2
+ * as published by the Free Software Foundation.
+ *
+ * Slack Integration is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Slack Integration; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+ * or see http://www.gnu.org/licenses/.
+ */
+
+$s_plugin_Slack_ = '';
+$s_plugin_Slack_title = 'Slack Integration';
+$s_plugin_Slack_description = 'Adds Slack integration to Mantis.';
+$s_plugin_Slack_config = 'Configuration';
+$s_plugin_Slack_channel = 'Slack Channel';
+$s_plugin_Slack_url_webhook = 'Slack Webhook Url';
+$s_plugin_Slack_bot_name = 'Slack Bot Name';
+$s_plugin_Slack_bot_icon = 'Slack Bot Icon';
+$s_plugin_Slack_skip_bulk = 'Skip notification on bulk actions';
+$s_plugin_Slack_default_channel = 'Default Slack Channel';
+$s_plugin_Slack_channels = 'Slack Channels';
+$s_plugin_Slack_columns = 'Slack Columns';
+$s_plugin_Slack_bug_created = '[%s] %s created <%s|%s>.';
+$s_plugin_Slack_bug_updated = '[%s] %s updated <%s|%s>.';
+$s_plugin_Slack_bug_deleted = '[%s] %s deleted %s.';
+$s_plugin_Slack_bugnote_created = "[%s] %s commented on <%s|%s> saying:\n%s";
+$s_plugin_Slack_bugnote_updated = "[%s] %s edited a comment on <%s|%s> saying:\n%s";
+$s_plugin_Slack_bugnote_deleted = "[%s] %s deleted a comment on <%s|%s>.";
+$s_plugin_Slack_no_user = '(no one)';
+$s_plugin_Slack_unknown_field = '(don\'t know how to render field "%s")';
+$s_plugin_Slack_skip = 'Skip Slack notification';
+
+$MANTIS_ERROR['plugin_Slack_ERROR_NO_CURL'] = 'The Slack plugin requires the cURL PHP extension (http://php.net/curl)';
+$MANTIS_ERROR['plugin_Slack_ERROR_PHP_VERSION'] = 'The Slack plugin requires PHP 5.3.0 or higher';
